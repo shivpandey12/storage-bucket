@@ -1,6 +1,6 @@
 
 provider "google" {
   credentials = file("desktop_location/key.json")
-  project     = "empyrean-bridge-426118-q3"
+  project     = var.project_id
   region      = var.region
 }
