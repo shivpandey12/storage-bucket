@@ -13,5 +13,4 @@ variable "bucket_name" {
 variable "bucket_location" {
   type        = string
   description = "The location of the GCS bucket"
-  default     = "US"
 }
